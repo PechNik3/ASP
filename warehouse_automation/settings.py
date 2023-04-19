@@ -75,7 +75,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'asp_db',
-        'USER': 'nik_t',
+        'USER': 'postgres',
         'PASSWORD': 'rootroot',
         'HOST': 'localhost',
         'PORT': '5432',
