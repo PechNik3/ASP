@@ -1,0 +1,73 @@
+.d-flex{display: flex;}/*расположение горизонтально*/
+.justify-content-between{justify-content: space-between;}/*блоки с разных сторон*/
+
+.title { /*Заголовок*/
+    margin: 0;
+    margin-left: 10px;
+    font-size: 150px;
+    line-height: 100px;
+    color: #ffffff;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-shadow: #000000;
+    border: #2f1a33 solid; width: 375px; background-color: #d400ff; border-radius: 10px;
+  }
+
+.dropbtn { /*каталог*/
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 75px;
+    line-height: 50px;
+    color: white;
+    padding: 16px;
+    text-shadow: #000000;
+    border: #2f1a33 solid; width: 375px; background-color: #d400ff; border-radius: 10px;
+}
+
+.dropdown { /*выплывание окна*/
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content { /*выплывающие окна*/
+    display: none;
+    position: absolute;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: #2f1a33 solid;
+}
+
+.dropdown-content a { /*текст выплывающих окон*/
+    color: #d400ff;
+    font-size: 50px;
+    line-height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px 30px;
+    text-decoration: none;
+    display: block;
+    border: #2f1a33 solid;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #811272;}
+
+.search1{ /* окно поиска */
+    margin-left: 30px;
+    font-size: 50px;
+    line-height: 25px;
+}
+
+.submit{ /* кнопка поиска */
+    margin-left: 30px;
+    font-size: 50px;
+    line-height: 25px;
+}
